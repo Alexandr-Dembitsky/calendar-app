@@ -1,0 +1,120 @@
+.App-header {
+    background-color: #222;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.App-title {
+    font-size: 1.7em;
+}
+
+.App-intro {
+    font-size: large;
+}
+
+.App form {
+    width: 250px;
+    margin: 60px auto;
+}
+
+.App form > div {
+    margin: 10px 0;
+}
+
+.App form label {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.App form #title {
+    position: relative;
+    display: inline-block;
+    padding: 4px 7px;
+    cursor: text;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #666;
+    background-color: #fff;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+}
+
+.App form input {
+    margin-left: 10px;
+}
+
+.App form .note {
+    font-size: 12px;
+    margin: 20px 0;
+}
+
+.App .log-out {
+    float: right;
+    margin: 7px;
+}
+
+.calendar {
+    position: relative;
+    overflow: hidden;
+    width: 550px;
+    margin: 0 auto;
+}
+
+.calendar_left_slot {
+    float: left;
+    width: 250px;
+    margin-right: 50px;
+}
+
+.calendar_right_slot {
+    float: left;
+    width: 250px;
+}
+
+.calendar_slot {
+    height: 60px;
+}
+
+.calendar_slot:nth-child(odd) {
+    border-top: 1px solid #ece7e7;
+}
+
+.calendar_slot:nth-child(odd) .calendar_time_separators {
+    font-size: 16px;
+    color: #6f6c6c;
+}
+
+.calendar_slot:nth-child(even) .calendar_time_separators {
+    font-size: 12px;
+    color: #6f6c6c;
+}
+
+.calendar_event {
+    width: 200px;
+    left: 50px;
+    position: absolute;
+    font-size: 14px;
+    background-color: #E2ECF5;
+    border-left: 1px solid #6E9ECF;
+}
+
+.calendar_event:hover {
+    cursor: pointer;
+    box-shadow: -2px 2px 26px -6px rgba(0,0,0,0.75);
+}
+
+.calendar_event_title {
+    padding: 5px 5px;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.export_events {
+    display: block;
+    clear: both;
+    width: 550px;
+    margin: 25px auto;
+}

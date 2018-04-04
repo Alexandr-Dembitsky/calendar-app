@@ -1,0 +1,9 @@
+.Login .form-login{
+    max-width: 330px;
+    padding: 85px 15px;
+    margin: 0 auto;
+}
+
+.Login .form-login button{
+    margin: 10px 0;
+}
